@@ -9,6 +9,8 @@ under `packaged-skills/`.
 - `apng-creator` - Create an APNG from a numerically indexed PNG frame sequence.
 - `batch-image-compressor` - Compress JPEG and PNG images without changing
   resolution or format.
+- `generate-tokens-from-figma` - Generate design token reports and DTCG token
+  files from Figma variables and styles.
 
 ## Repository Layout
 
@@ -18,8 +20,15 @@ skills-collection/
 │   ├── apng-creator/
 │   │   ├── SKILL.md
 │   │   └── scripts/
-│   └── batch-image-compressor/
-│       └── SKILL.md
+│   ├── batch-image-compressor/
+│   │   └── SKILL.md
+│   └── generate-tokens-from-figma/
+│       ├── SKILL.md
+│       ├── agents/
+│       ├── references/
+│       ├── scripts/
+│       ├── templates/
+│       └── tests/
 └── packaged-skills/
     ├── apng-creator.skill
     └── batch-image-compressor.skill

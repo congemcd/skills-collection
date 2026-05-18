@@ -1,0 +1,102 @@
+{
+  "source": {
+    "fileKey": "gPXWFRmacP5NDoVS0YFCF8",
+    "url": "https://www.figma.com/design/gPXWFRmacP5NDoVS0YFCF8/example",
+    "editorType": "figma"
+  },
+  "variableCollections": [
+    {
+      "name": "Colors",
+      "modes": ["Light", "Dark", "IC - Light"],
+      "variables": [
+        {
+          "name": "Accents/Red",
+          "type": "COLOR",
+          "valuesByMode": {
+            "Light": "#FF383C",
+            "Dark": "#FF4245",
+            "IC - Light": "#E9152D"
+          }
+        },
+        {
+          "name": "Accents/Blue",
+          "type": "COLOR",
+          "valuesByMode": {
+            "Light": "#0088FF",
+            "Dark": "#0091FF",
+            "IC - Light": "#1E6EF4"
+          }
+        },
+        {
+          "name": "Miscellaneous/Tab Bar Selection",
+          "type": "COLOR",
+          "valuesByMode": {
+            "Light": { "alias": "Accents/Blue" },
+            "Dark": "#FFFFFF",
+            "IC - Light": { "alias": "Accents/Blue" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Kit",
+      "modes": ["Mode"],
+      "variables": [
+        {
+          "name": "Top",
+          "type": "FLOAT",
+          "valuesByMode": {
+            "Mode": 27
+          }
+        }
+      ]
+    }
+  ],
+  "styles": {
+    "color": [
+      {
+        "name": "Colors/Red",
+        "paints": [
+          {
+            "type": "SOLID",
+            "value": "#FF383C"
+          }
+        ]
+      },
+      {
+        "name": "Vibrant Labels/Light/Vibrant Secondary",
+        "paints": [
+          {
+            "type": "SOLID",
+            "value": { "hex": "#7F7F7F", "alpha": 0.5 }
+          },
+          {
+            "type": "SOLID",
+            "value": "#3D3D3D"
+          }
+        ]
+      }
+    ],
+    "text": [
+      {
+        "name": "Large Title/Regular",
+        "fontFamily": "SF Pro",
+        "fontStyle": "Regular",
+        "fontSize": 34,
+        "lineHeight": 41,
+        "letterSpacing": 0.4000000059604645
+      },
+      {
+        "name": "Body/Emphasized",
+        "fontFamily": "SF Pro",
+        "fontStyle": "Semibold",
+        "fontSize": 17,
+        "lineHeight": 22,
+        "letterSpacing": -0.4300000071525574
+      }
+    ]
+  },
+  "fallbacksUsed": [],
+  "skippedItems": [],
+  "validationWarnings": []
+}

@@ -1,0 +1,65 @@
+{
+  "$extensions": {
+    "format": {
+      "name": "Design Tokens Format Module",
+      "version": "2025.10",
+      "source": "https://www.designtokens.org/tr/2025.10/format/"
+    },
+    "figma": {
+      "fileKey": "example-file-key",
+      "source": "figma-token-report.json"
+    }
+  },
+  "light": {
+    "color-primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1, 0, 0],
+        "hex": "#FF0000"
+      },
+      "$extensions": {
+        "figma": {
+          "originalName": "Color/Primary",
+          "resolvedType": "COLOR",
+          "mode": "Light"
+        }
+      }
+    },
+    "color-alias": {
+      "$type": "color",
+      "$value": "{light.color-primary}",
+      "$extensions": {
+        "figma": {
+          "originalName": "Color/Alias",
+          "alias": "Color/Primary",
+          "mode": "Light"
+        }
+      }
+    }
+  },
+  "text": {
+    "body-regular": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "SF Pro",
+        "fontWeight": 400,
+        "fontSize": {
+          "value": 17,
+          "unit": "px"
+        },
+        "lineHeight": 1.2941176471,
+        "letterSpacing": {
+          "value": -0.43,
+          "unit": "px"
+        }
+      },
+      "$extensions": {
+        "figma": {
+          "originalName": "Body/Regular",
+          "fontStyle": "Regular"
+        }
+      }
+    }
+  }
+}

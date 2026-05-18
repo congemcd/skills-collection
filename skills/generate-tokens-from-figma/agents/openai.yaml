@@ -1,0 +1,4 @@
+interface:
+  display_name: "Generate Tokens from Figma"
+  short_description: "Export Figma variables and styles as tokens"
+  default_prompt: "Use $generate-tokens-from-figma to create a report and DTCG token files from this Figma file."
